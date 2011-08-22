@@ -1,0 +1,34 @@
+Summary:
+A command line script that when given a hash tag, you get a list of urls from Twitter written to the STDOUT.
+
+Usage:
+ruby find_links.rb a_hash_tag
+
+Example:
+ruby find_links.rb kardashian
+
+System Requirements:
+Ruby 1.9.2p180
+Ruby Gems 1.5.2
+Mac OS X, 10.6.8
+Not tested on other platforms
+
+Installation:
+bundle install
+
+Tests:
+Production test: ( Actually call out to http://search.twitter.com/ .)
+cucumber features
+
+Stubbed and unit tests:
+rspec spec
+
+Run all tests:
+rake test
+
+Author:
+David Beckwith
+thirdreplicator@gmail.com
+
+Date:
+Sun Aug  7 16:30:16 PDT 2011

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sun, 07 Aug 2011 20:03:20 GMT
+Server: hi
+Cache-Control: max-age=15, must-revalidate, max-age=300
+Expires: Sun, 07 Aug 2011 20:08:20 GMT
+Content-Type: application/json;charset=utf-8
+Vary: Accept-Encoding
+X-Varnish: 1912731313
+Age: 0
+Via: 1.1 varnish
+X-Cache-Svr: smf1-acy-27-sr4.prod.twitter.com
+X-Cache: MISS
+Content-Length: 911
+Connection: close
+
+{"completed_in":0.113,"max_id":100295770770644992,"max_id_str":"100295770770644992","next_page":"?page=2&max_id=100295770770644992&q=%23kardashian&rpp=1","page":1,"query":"%23kardashian","refresh_url":"?since_id=100295770770644992&q=%23kardashian","results":[{"created_at":"Sun, 07 Aug 2011 20:02:29 +0000","from_user":"rachcoop04","from_user_id":259374058,"from_user_id_str":"259374058","geo":{"coordinates":[53.410777,-2.977838],"type":"Point"},"id":100295770770644992,"id_str":"100295770770644992","iso_language_code":"in","metadata":{"result_type":"recent"},"profile_image_url":"http://a0.twimg.com/profile_images/1483083912/moi_normal.jpg","source":"&lt;a href=&quot;http://blackberry.com/twitter&quot; rel=&quot;nofollow&quot;&gt;Twitter for BlackBerry\u00AE&lt;/a&gt;","text":"#Kardashian time \u263A \u2665 http://tinyurl.com/3taw4dq","to_user_id":null,"to_user_id_str":null}],"results_per_page":1,"since_id":0,"since_id_str":"0"}

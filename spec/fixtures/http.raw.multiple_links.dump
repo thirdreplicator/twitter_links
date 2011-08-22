@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sun, 07 Aug 2011 20:03:20 GMT
+Server: hi
+Cache-Control: max-age=15, must-revalidate, max-age=300
+Expires: Sun, 07 Aug 2011 20:08:20 GMT
+Content-Type: application/json;charset=utf-8
+Vary: Accept-Encoding
+X-Varnish: 1912731313
+Age: 0
+Via: 1.1 varnish
+X-Cache-Svr: smf1-acy-27-sr4.prod.twitter.com
+X-Cache: MISS
+Content-Length: 911
+Connection: close
+
+{"completed_in":0.068,"max_id":100334354508689408,"max_id_str":"100334354508689408","next_page":"?page=2&max_id=100334354508689408&q=%23kardashian&rpp=2","page":1,"query":"%23kardashian","refresh_url":"?since_id=100334354508689408&q=%23kardashian","results":[{"created_at":"Sun, 07 Aug 2011 22:35:48 +0000","from_user":"pmarchie","from_user_id":277289618,"from_user_id_str":"277289618","geo":null,"id":100334354508689408,"id_str":"100334354508689408","iso_language_code":"en","metadata":{"result_type":"recent"},"profile_image_url":"http://a3.twimg.com/profile_images/1445395090/Kdg6VpVK_normal","source":"&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;","text":"@maryglyncc are you gonna watch #teenchoiceawards 2nite? http://youtube.com/watch?v=GeD6OnJT8oE  Our #Kardashian girls gona be workin it. http://t.co/nhsFAPM BIBLE.","to_user":"maryglyncc","to_user_id":358358195,"to_user_id_str":"358358195"},{"created_at":"Sun, 07 Aug 2011 22:30:04 +0000","from_user":"hayleyjayne808","from_user_id":252786284,"from_user_id_str":"252786284","geo":null,"id":100332911017988096,"id_str":"100332911017988096","iso_language_code":"en","metadata":{"result_type":"recent"},"profile_image_url":"http://a2.twimg.com/profile_images/1395691075/image_normal.jpg","source":"&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;","text":"RT @KendallJenner: VOTE!!! #KARDASHIAN! only a few days left!!!","to_user_id":null,"to_user_id_str":null}],"results_per_page":2,"since_id":0,"since_id_str":"0"}
